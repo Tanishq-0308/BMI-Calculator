@@ -1,0 +1,44 @@
+body{
+    height: 700px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(30,64,163,1) 50%, rgba(24,24,168,1) 100%, rgba(32,94,107,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+h1 ,p{
+    color: white;
+}
+button{
+    height: 40px;
+    width: 70%;
+    border: 2px solid;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: 700; 
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+}
+#result{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 25px;
+}
+.cal{
+    background-color:rgba(0, 162, 255, 0.301);
+    filter: blur(70%);
+    border-radius: 8px;
+    border: 1px solid white;
+    box-shadow: 7px 7px 7px black; 
+    padding: 51px;
+}
+.guide{
+    margin-top: 50px;
+}
+.guide>h3{
+    font-size: 25px;
+}
